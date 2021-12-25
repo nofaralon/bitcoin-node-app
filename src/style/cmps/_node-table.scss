@@ -1,0 +1,40 @@
+.node-table {
+    border-collapse: collapse;
+    border: 1px solid $clr6;
+    width: 80%;
+    margin: auto;
+    td,
+    th {
+        border: 1px solid $clr6;
+        padding: 8px;
+        text-align: left;
+        &.status {
+            color: rgb(2, 138, 24);
+        }
+    }
+    tr:nth-child(even) {
+        background-color: $clr2;
+    }
+    tr:hover {
+        background-color: $clr6;
+    }
+    tr {
+        height: 55px;
+        &.opened-tr {
+            background-color: #ddd;
+            position: relative;
+        }
+    }
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: $clrTag1;
+        color: $clr5;
+        cursor: pointer;
+        position: relative;
+    }
+    button {
+        padding: 5px;
+        margin: 1px 10px;
+    }
+}

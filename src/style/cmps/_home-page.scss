@@ -1,0 +1,23 @@
+.home-page {
+    & form {
+        height: 50px;
+        padding: 10px;
+        margin: 10px auto 10px;
+        &>* {
+            margin-inline-end: 5px;
+        }
+        .submit-btn {
+            padding: 2px;
+        }
+    }
+    .Paging-btns {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        & button {
+            padding: 5px;
+        }
+    }
+}
